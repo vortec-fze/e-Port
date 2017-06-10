@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+    font-family: "Monserrat", "Open Sans", "Georgia";
+
+}
+h1{
+    color: white;
+    font-size: 60px;
+}
+h2{
+    color:  #33ccff;
+    font-size 60px;
+}
+p{
+    color:white;
+}
+
+.drkblue {
+    position: relative;
+    width: 95vw;
+    height: inherit;
+    margin: 0 auto;
+}
+
+.medblue {
+    bottom: 0;
+    background-color: #33CCFF;
+    width: 95vw;
+    height: 160px;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lghtblue {
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+#logo1, #logo2{
+    object-fit: none;
+}
+#logo2{
+}
+
+#firstsec {
+    width: 100%;
+    height: 30vh;
+    background-color: #3399CC;
+}
+#secondsec{
+    width: 95vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #CCFFFF;
+}
+#thirdsec{
+    width: 95vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #33CC99;
+    display: flex;
+    justify-content: center;
+
+}
+#fourthsec{
+    width: 95vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #3399cc;
+    display: flex;
+    justify-content: center;
+}
+#fifthsec{
+    width: 95vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #CCFFFF;
+    display: flex;
+    justify-content: center;
+}
+#sixthsec{
+    width: 95vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #33CC99;
+    display: flex;
+   
+}
+#seventhsec{
+    width: 95vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #CCFFFF;
+    display: flex;
+    justify-content: center;   
+}
+#footersec {
+    width: 95vw;
+    height: 5vh;
+    margin: 0 auto;
+    background-color: #3399CC;
+    text-align: center;
+    line-height: 5vh;
+
+}
+
+#footersec p{
+    -webkit-margin-before: 0em;
+
+}
+
+#clearsec {
+    width: 95vw;
+    height: 5vh;
+    background-color: white;
+}
+.icongroup {
+    display: flex;
+    align-items: center;
+}
+.icontainer {
+    margin: 0 auto;
+    padding: 35px;
+    text-align: center;
+}
+.icontainer img{
+    height: auto;
+    width: 200px;
+    
+}
+.stepgroup {
+    margin: auto;
+    
+}
+.stepgroup img{
+    padding: 35px;
+}
+
+#testim1 img{
+    object-fit: cover;
+}
+    #testim2 img {
+    object-fit: cover;
+}
+#testim3 {
+    background-image: url(images/testimonial3.svg);
+}
